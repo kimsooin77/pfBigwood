@@ -6,6 +6,7 @@ import {setYoutube} from '../../redux/actions';
 function Intro() {
     const youtube = useSelector(state => state);
     const dispatch = useDispatch();
+    
     const vidData = youtube.youtubeReducer.youtube;
 
     const api_key = "AIzaSyCx0QSN0lGvhIu9p-zYnEGvkJUvf3p_6vI";
@@ -33,7 +34,7 @@ function Intro() {
                         ?
                         vidData.map((vid,index) => {
                             return(
-                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
+                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium} />
                             )
                             
                         })

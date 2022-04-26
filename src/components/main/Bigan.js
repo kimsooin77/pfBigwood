@@ -1,4 +1,4 @@
-function Vigan() {
+function Bigan() {
     const path = process.env.PUBLIC_URL;
     const imgSrc1 = `${path}/img/beganPic1.jpg`;
     const imgSrc2 = `${path}/img/beganPic2.jpg`;
@@ -23,4 +23,4 @@ function Vigan() {
     )
 }
 
-export default Vigan;
+export default Bigan;
