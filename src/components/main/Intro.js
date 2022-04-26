@@ -34,7 +34,7 @@ function Intro() {
                         ?
                         vidData.map((vid,index) => {
                             return(
-                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium} />
+                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
                             )
                             
                         })
