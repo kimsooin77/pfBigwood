@@ -22,7 +22,6 @@ function Intro() {
 
     useEffect(() => {
         fetchYoutube();
-        console.log(vidData[4].snippet.thumbnails.medium.url);
     },[url]);
     return(
         <section id="intro">
