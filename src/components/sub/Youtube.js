@@ -59,7 +59,7 @@ function Youtube() {
                                             setIsPop(true);
                                             setIndex(index);
                                         }}>
-                                            <img src={item.snippet.thumbnails.medium.url} />
+                                            <img alt="thumbnails" src={item.snippet.thumbnails.medium.url} />
                                             
                                         </div>
                                         <div className="txt">

@@ -30,11 +30,12 @@ function Intro() {
                 <h2>RECENT YOUTUBE</h2>
                 <div className="vidBox">
                     {
-                        (vidData.length <= 5)
+                        (vidData.length === 5)
                         ?
                         vidData.map((vid,index) => {
+                            if(index < 5)
                             return(
-                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
+                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.high.url} />
                             )
                             
                         })
