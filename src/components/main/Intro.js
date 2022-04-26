@@ -22,20 +22,24 @@ function Intro() {
 
     useEffect(() => {
         fetchYoutube();
-    },[url]);
+        console.log(vidData.length)
+    },[url, playListId]);
     return(
         <section id="intro">
             <div className="inner">
                 <h2>RECENT YOUTUBE</h2>
                 <div className="vidBox">
                     {
+                        (vidData.length <= 5)
+                        ?
                         vidData.map((vid,index) => {
-                            if(index < 5) {
-                                return(
-                                    <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
-                                )
-                            }
+                            return(
+                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
+                            )
+                            
                         })
+                        :
+                        null
                     }
                 </div>
             </div>
