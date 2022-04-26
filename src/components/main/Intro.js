@@ -22,7 +22,7 @@ function Intro() {
 
     useEffect(() => {
         fetchYoutube();
-        console.log(vidData[3].snippet.thumbnails.medium.url);
+        console.log(vidData[4].snippet.thumbnails.medium.url);
     },[url]);
     return(
         <section id="intro">
@@ -31,9 +31,11 @@ function Intro() {
                 <div className="vidBox">
                     {
                         vidData.map((vid,index) => {
-                            return(
-                                <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
-                            )
+                            if(index < 5) {
+                                return(
+                                    <img alt="thumbnails" key={index} src={vid.snippet.thumbnails.medium.url} />
+                                )
+                            }
                         })
                     }
                 </div>
