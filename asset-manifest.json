@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pfBigwood/static/css/main.5f7ebaae.css",
-    "main.js": "/pfBigwood/static/js/main.f80629e8.js",
+    "main.js": "/pfBigwood/static/js/main.870ed11d.js",
     "static/media/began_bg.png": "/pfBigwood/static/media/began_bg.ded9bd735234cef88796.png",
     "static/media/bookBg.jpg": "/pfBigwood/static/media/bookBg.8bbcaf8ef7b016c6dc95.jpg",
     "static/media/middleBg.jpg": "/pfBigwood/static/media/middleBg.f3948ea136230831d84c.jpg",
@@ -13,10 +13,10 @@
     "static/media/slider4.jpg": "/pfBigwood/static/media/slider4.72675acf4a76e2c49300.jpg",
     "index.html": "/pfBigwood/index.html",
     "main.5f7ebaae.css.map": "/pfBigwood/static/css/main.5f7ebaae.css.map",
-    "main.f80629e8.js.map": "/pfBigwood/static/js/main.f80629e8.js.map"
+    "main.870ed11d.js.map": "/pfBigwood/static/js/main.870ed11d.js.map"
   },
   "entrypoints": [
     "static/css/main.5f7ebaae.css",
-    "static/js/main.f80629e8.js"
+    "static/js/main.870ed11d.js"
   ]
 }
