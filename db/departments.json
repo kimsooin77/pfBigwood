@@ -1,0 +1,20 @@
+{
+    "data" : [
+        {
+            "imgSrc" : "departmentPic3.jpg",
+            "name" : "Robert Joe"
+        },
+        {
+            "imgSrc" : "departmentPic4.jpg",
+            "name" : "Michale"
+        },
+        {
+            "imgSrc" : "departmentPic5.jpg",
+            "name" : "Ryan Gosling"
+        },
+        {
+            "imgSrc" : "departmentPic6.jpg",
+            "name" : "Domhnall"
+        }
+    ]
+}

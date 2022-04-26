@@ -1,0 +1,22 @@
+{
+    "data" : [
+        {
+            "title" : "Los Angeles",
+            "address" : "22 East 41/B Street, Los Angeles, CA 92301 USA",
+            "num" : "+22 1234 5411",
+            "email" : "infoLA@naver.com"
+        },
+        {
+            "title" : "San Francisco",
+            "address" : "22 East 41/B Street, San Francisco, CA 92301 USA",
+            "num" : "+22 1234 5411",
+            "email" : "infoSF@naver.com"
+        },
+        {
+            "title" : "New York",
+            "address" : "22 East 41/B Street, New York, CA 92301 USA",
+            "num" : "+22 1234 5411",
+            "email" : "infoNY@naver.com"
+        }
+    ]
+}
