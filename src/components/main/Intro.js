@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import {setYoutube} from '../../redux/actions.js';
+import {setYoutube} from '../../redux/actions';
 
 function Intro() {
     const youtube = useSelector(state => state);
@@ -22,7 +22,6 @@ function Intro() {
 
     useEffect(() => {
         fetchYoutube();
-        console.log(vidData.length)
     },[]);
     return(
         <section id="intro">
