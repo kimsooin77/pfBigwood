@@ -2601,7 +2601,7 @@ footer {
       width: 50%;
       margin: 0 auto;
       text-align: center;
-      top: 45%;
+      top: 48%;
       left: 50%;
       transform: translateX(-50%); }
     #join .topPic aside {
@@ -3199,7 +3199,7 @@ footer {
       position: absolute;
       font: normal 25px "Cardo";
       color: #FFF;
-      top: 44%;
+      top: 42%;
       left: 45%; }
     #location .topPic aside {
       width: 800px;
