@@ -2,12 +2,7 @@ import {useEffect, useState, useRef} from 'react';
 
 
 function Community() {
-    const top = useRef(null);
-    const right = useRef(null);
-    const bottom = useRef(null);
-    const left = useRef(null);
     const pop = useRef(null);
-    const topLeft = useRef(null);
 
     const path = process.env.PUBLIC_URL;
     const pic1 = `${path}/img/gallery1.jpg`;
@@ -104,11 +99,11 @@ function Community() {
         <main className="community content">
             <div className="topPic">
                 <aside ref={pop}>
-                    <div className="top" ref={top}></div>
-                    <div className="right" ref={right}></div>
-                    <div className="bottom" ref={bottom}></div>
-                    <div className="left" ref={left}></div>
-                    <div className="topLeft" ref={topLeft}></div>
+                    <div className="top"></div>
+                    <div className="right"></div>
+                    <div className="bottom"></div>
+                    <div className="left"></div>
+                    <div className="topLeft"></div>
                 </aside>
                         
                 <p>Community</p>
@@ -189,7 +184,7 @@ function Community() {
                 </div>
                 <div className="asidePic">
                     <div className="pic1">
-                        <img src={pic1} />
+                        <img alt='asidePic' src={pic1} />
                     </div>
                 </div>
             

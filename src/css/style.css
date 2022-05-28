@@ -2049,13 +2049,13 @@ footer {
       position: absolute;
       font: normal 25px "Cardo";
       color: #FFF;
-      top: 45%;
+      top: 51%;
       left: 25%; }
     .youtube .topPic aside {
       width: 800px;
       height: 100px;
       position: absolute;
-      top: 40%;
+      top: 44%;
       left: 50%;
       transform: translateX(-50%);
       overflow: hidden;
@@ -3199,13 +3199,13 @@ footer {
       position: absolute;
       font: normal 25px "Cardo";
       color: #FFF;
-      top: 40%;
+      top: 44%;
       left: 45%; }
     #location .topPic aside {
       width: 800px;
       height: 100px;
       position: absolute;
-      top: 30%;
+      top: 35%;
       right: 4%;
       overflow: hidden;
       z-index: 3; }

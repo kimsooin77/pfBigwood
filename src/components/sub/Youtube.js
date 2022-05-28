@@ -5,12 +5,7 @@ import {useSelector} from 'react-redux';
 const body = document.querySelector("body");
 
 function Youtube() {
-    const top = useRef(null);
-    const right = useRef(null);
-    const bottom = useRef(null);
-    const left = useRef(null);
     const pop = useRef(null);
-    const topLeft = useRef(null);
     const frame = useRef(null);
 
     const path = process.env.PUBLIC_URL;
@@ -32,11 +27,11 @@ function Youtube() {
         <main className="youtube">
             <div className="topPic">
             <aside ref={pop}>
-                    <div className="top" ref={top}></div>
-                    <div className="right" ref={right}></div>
-                    <div className="bottom" ref={bottom}></div>
-                    <div className="left" ref={left}></div>
-                    <div className="topLeft" ref={topLeft}></div>
+                    <div className="top" ></div>
+                    <div className="right"></div>
+                    <div className="bottom"></div>
+                    <div className="left"></div>
+                    <div className="topLeft"></div>
                 </aside>
                         
                 <p>Youtube</p>
@@ -44,7 +39,7 @@ function Youtube() {
             </div>
             <div className="inner" >
                 <h1><a href="#">Youtube</a></h1>
-                <img className="logoBg" src={logoSrc} />
+                <img className="logoBg" src={logoSrc} alt="logoBg" />
                 <section className="frame" ref={frame}>
                     {
                         vidData.map((item,index) => {

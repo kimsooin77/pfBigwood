@@ -3,12 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandsClapping } from "@fortawesome/free-solid-svg-icons";
 
 function Join() {
-    const top = useRef(null);
-    const right = useRef(null);
-    const bottom = useRef(null);
-    const left = useRef(null);
     const pop = useRef(null);
-    const topLeft = useRef(null);
 
     const initVal = {
         userid : '',
@@ -100,11 +95,11 @@ function Join() {
         <div id="join">
             <div className="topPic">
             <aside ref={pop}>
-                    <div className="top" ref={top}></div>
-                    <div className="right" ref={right}></div>
-                    <div className="bottom" ref={bottom}></div>
-                    <div className="left" ref={left}></div>
-                    <div className="topLeft" ref={topLeft}></div>
+                    <div className="top"></div>
+                    <div className="right"></div>
+                    <div className="bottom"></div>
+                    <div className="left"></div>
+                    <div className="topLeft"></div>
                 </aside>
                         
                 <p>Join</p>

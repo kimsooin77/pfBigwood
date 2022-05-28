@@ -16,12 +16,7 @@ const masonryOptions = {
 }
 
 function Gallery() {
-    const top = useRef(null);
-    const right = useRef(null);
-    const bottom = useRef(null);
-    const left = useRef(null);
     const pop = useRef(null);
-    const topLeft = useRef(null);
 
     let [items,setItems] = useState([]);
     let [loading, setLoading] = useState(true);
@@ -50,11 +45,11 @@ function Gallery() {
         <section  className="gallery">
             <div className="topPic">
             <aside ref={pop}>
-                    <div className="top" ref={top}></div>
-                    <div className="right" ref={right}></div>
-                    <div className="bottom" ref={bottom}></div>
-                    <div className="left" ref={left}></div>
-                    <div className="topLeft" ref={topLeft}></div>
+                    <div className="top"></div>
+                    <div className="right"></div>
+                    <div className="bottom"></div>
+                    <div className="left"></div>
+                    <div className="topLeft"></div>
                 </aside>
                         
                 <p>Gallery</p>
