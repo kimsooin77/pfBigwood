@@ -17,7 +17,6 @@ function Youtube() {
 
     const youtube = useSelector(state=>state);
     const vidData = youtube.youtubeReducer.youtube;
-    console.log(vidData);
 
     useEffect(() => {
         frame.current.classList.add("on");
