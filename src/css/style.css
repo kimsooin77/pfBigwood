@@ -2049,13 +2049,13 @@ footer {
       position: absolute;
       font: normal 25px "Cardo";
       color: #FFF;
-      top: 51%;
+      top: 53%;
       left: 25%; }
     .youtube .topPic aside {
       width: 800px;
       height: 100px;
       position: absolute;
-      top: 44%;
+      top: 45%;
       left: 50%;
       transform: translateX(-50%);
       overflow: hidden;
@@ -2366,7 +2366,7 @@ footer {
       position: absolute;
       font: normal 25px "Cardo";
       color: #FFF;
-      top: 48%;
+      top: 45%;
       left: 25%; }
     #join .topPic aside {
       width: 800px;
@@ -2601,7 +2601,7 @@ footer {
       width: 50%;
       margin: 0 auto;
       text-align: center;
-      top: 48%;
+      top: 45%;
       left: 50%;
       transform: translateX(-50%); }
     #join .topPic aside {
@@ -3199,13 +3199,13 @@ footer {
       position: absolute;
       font: normal 25px "Cardo";
       color: #FFF;
-      top: 42%;
+      top: 40%;
       left: 45%; }
     #location .topPic aside {
       width: 800px;
       height: 100px;
       position: absolute;
-      top: 35%;
+      top: 30%;
       right: 4%;
       overflow: hidden;
       z-index: 3; }
