@@ -94,13 +94,8 @@ function Location() {
                     <div className="top"></div>
                     <div className="right"></div>
                     <div className="bottom"></div>
-<<<<<<< HEAD
-                    <div className="left" ></div>
-                    <div className="topLeft"></div>
-=======
                     <div className="left"></div>
-                    <div className="topLeft"}></div>
->>>>>>> d39775a9b1896f5bb1a4ba49068c1b96fc73561f
+                    <div className="topLeft"></div>
                 </aside>
                         
                 <p>Location</p>
