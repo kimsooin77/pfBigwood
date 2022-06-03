@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pfBigwood/static/css/main.5f7ebaae.css",
-    "main.js": "/pfBigwood/static/js/main.a550bb04.js",
+    "main.css": "/pfBigwood/static/css/main.5a4c9310.css",
+    "main.js": "/pfBigwood/static/js/main.aecd6712.js",
     "static/media/began_bg.png": "/pfBigwood/static/media/began_bg.ded9bd735234cef88796.png",
     "static/media/bookBg.jpg": "/pfBigwood/static/media/bookBg.8bbcaf8ef7b016c6dc95.jpg",
     "static/media/middleBg.jpg": "/pfBigwood/static/media/middleBg.f3948ea136230831d84c.jpg",
@@ -12,11 +12,11 @@
     "static/media/slider6.jpg": "/pfBigwood/static/media/slider6.50df9ed766a96f1a4426.jpg",
     "static/media/slider4.jpg": "/pfBigwood/static/media/slider4.72675acf4a76e2c49300.jpg",
     "index.html": "/pfBigwood/index.html",
-    "main.5f7ebaae.css.map": "/pfBigwood/static/css/main.5f7ebaae.css.map",
-    "main.a550bb04.js.map": "/pfBigwood/static/js/main.a550bb04.js.map"
+    "main.5a4c9310.css.map": "/pfBigwood/static/css/main.5a4c9310.css.map",
+    "main.aecd6712.js.map": "/pfBigwood/static/js/main.aecd6712.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f7ebaae.css",
-    "static/js/main.a550bb04.js"
+    "static/css/main.5a4c9310.css",
+    "static/js/main.aecd6712.js"
   ]
 }
