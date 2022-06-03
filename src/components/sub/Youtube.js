@@ -26,7 +26,11 @@ function Youtube() {
         <main className="youtube">
             <div className="topPic">
             <aside ref={pop}>
+<<<<<<< HEAD
                     <div className="top" ></div>
+=======
+                    <div className="top"></div>
+>>>>>>> d39775a9b1896f5bb1a4ba49068c1b96fc73561f
                     <div className="right"></div>
                     <div className="bottom"></div>
                     <div className="left"></div>

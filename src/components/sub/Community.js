@@ -103,7 +103,11 @@ function Community() {
                     <div className="right"></div>
                     <div className="bottom"></div>
                     <div className="left"></div>
+<<<<<<< HEAD
                     <div className="topLeft"></div>
+=======
+                    <div className="topLeft"}></div>
+>>>>>>> d39775a9b1896f5bb1a4ba49068c1b96fc73561f
                 </aside>
                         
                 <p>Community</p>
